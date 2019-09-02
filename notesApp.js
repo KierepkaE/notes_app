@@ -5,5 +5,5 @@ notes = ['This is our first note out of four notes',
 
 
 
-const HTML = notes.map(note => `<li>${note}</li> `).join('');
+const HTML = notes.map(note => `<li  >${note.length > 20 ? note.substring(0, 20) : note}</li> `).join('');
 document.getElementById("note").innerHTML = '<ul>' + HTML + '</ul>'
