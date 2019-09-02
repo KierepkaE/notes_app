@@ -4,6 +4,10 @@ notes = ['This is our first note out of four notes',
   'This is our fourth note out of four notes',]
 
 
+let i = 0;
 
-const HTML = notes.map(note => `<li  >${note.length > 20 ? note.substring(0, 20) : note}</li> `).join('');
+
+const HTML = notes.map((note, index) => `<a href='#${index}'=>${note.length > 20 ? note.substring(0, 20) : note}</a> `).join('');
+
+
 document.getElementById("note").innerHTML = '<ul>' + HTML + '</ul>'
