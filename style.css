@@ -51,6 +51,18 @@ textarea {
 }
 
 button {
-    background: transparent;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: sandybrown;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
     border: none;
+    transition: all 0.4s ease 0s;
+}
+
+button {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    transition: all 0.4s ease 0s;
 }
