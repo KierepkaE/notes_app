@@ -43,11 +43,13 @@ footer {
 }
 
 textarea {
+    line-height: auto;
     background: url(images/benice.png) center center no-repeat;
     border: 1px solid #888;
+}
+
+textarea[placeholder] {
     text-align: center;
-    height: 200px;
-    line-height: 200px;
 }
 
 button {
