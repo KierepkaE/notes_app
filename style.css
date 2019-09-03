@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Kitty';
-    src: url('JandaHappyDay.ttf')  format('truetype');
+    src: url('JandaHappyDay.ttf') format('truetype');
 }
 
 * {
@@ -12,7 +12,7 @@ body {
     background-size: cover;
 }
 
-h1{
+h1 {
     font-family: 'Kitty';
 }
 
@@ -40,4 +40,10 @@ h1{
 footer {
     position: fixed;
     bottom: 10px;
+}
+
+textarea {
+    background: url(images/benice.png) center center no-repeat;
+    border: 1px solid #888;
+    text-align: center;
 }
