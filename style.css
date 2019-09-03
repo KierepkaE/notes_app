@@ -49,6 +49,9 @@ textarea {
 }
 
 textarea[placeholder] {
+    background: url(https://bit.ly/2krkFBo) center center no-repeat;
+    background-size: 100%;
+    border: none;
     text-align: center;
 }
 
