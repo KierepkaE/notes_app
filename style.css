@@ -43,8 +43,9 @@ footer {
 }
 
 textarea {
-    background: url(images/benice.png) center center no-repeat;
-    border: 1px solid #888;
+    background: url(https://bit.ly/2krkFBo) center center no-repeat;
+    background-size: 100%;
+    border: none;
     text-align: center;
     height: 200px;
     line-height: 200px;
