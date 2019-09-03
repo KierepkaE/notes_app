@@ -5,14 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Document</title>
+    <title>Note App</title>
 </head>
 
 <body>
+    <h1 class="title">Notes App</h1>
+    <div id="add_note_wrapper">
+        <textarea id="note_input" value=" " cols="30" rows="20" placeholder="Add new note">
+        </textarea>
+        <button id="add_note_button" onclick="create_btn_click()">create</button>
+    </div>
 
-    <div id="note"></div>
-    <script src="notesApp.js"></script>
+
+    <div id="note_list_wrapper">
+        <ul id='note_list'>
+
+        </ul>
+    </div>
+    <div id="display">
+
+    </div>
+
+    <script src="interface.js"></script>
 </body>
 
 </html>
