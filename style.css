@@ -47,3 +47,8 @@ textarea {
     border: 1px solid #888;
     text-align: center;
 }
+
+button {
+    background: transparent;
+    border: none;
+}
