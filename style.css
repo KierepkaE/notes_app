@@ -12,7 +12,7 @@ body {
     background-size: cover;
 }
 
-h1 {
+h1, button{
     font-family: 'Kitty';
 }
 
@@ -44,15 +44,18 @@ footer {
 
 textarea {
     line-height: auto;
-    background: url(https://sulimanalomran.com/images/cat-border-clipart-6.png) center center no-repeat;
-    border: 1px solid #888;
-}
-
-textarea[placeholder] {
     background: url(https://bit.ly/2krkFBo) center center no-repeat;
     background-size: 100%;
     border: none;
-    text-align: center;
+    resize: none;
+    width: 391px; 
+    height: 359px;
+    padding-top: 100px;
+}
+
+textarea[placeholder] {
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 button {
