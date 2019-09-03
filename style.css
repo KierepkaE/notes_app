@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Kitty';
+    src: url('JandaHappyDay.ttf')  format('truetype');
+}
+
+* {
+    cursor: url(cursor.cur), default;
+}
+
+body {
+    background-image: url('backgroundkitty.jpg');
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Kitty';
+}
+
+#note_input {
+    white-space: pre-wrap;
+}
+
+#note_list {
+    list-style: none;
+    width: 15%;
+}
+
+.ListItem:hover {
+    cursor: pointer;
+    background-color: rgb(95, 33, 14);
+    background-size: 50%;
+    color: white;
+}
+
+.ListItem {
+    background-color: rgba(184, 241, 255, 0.527);
+    background-size: 300px 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+}

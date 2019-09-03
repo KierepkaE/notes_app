@@ -12,8 +12,8 @@ const create_btn_click = () => {
 }
 
 const trim = (string) => {
-    return string.length > 10 ?
-        `${string.slice(0, 10)} . . . ` :
+    return string.length > 20 ?
+        `${string.slice(0, 20)} . . . ` :
         string
 }
 
@@ -34,9 +34,11 @@ const clear_list = () => {
 }
 
 const displayNote = (index) => {
-  content = notes[index];
-  paragraph = document.createElement('P');
-  paragraph.innerHTML = content;
   display.innerHTML = ''
-  display.appendChild(paragraph);
+  content = notes[index].split("\n");
+  for(line of content) {
+    paragraph = document.createElement('P');
+    paragraph.innerHTML = line;
+    display.appendChild(paragraph);
+  }
 }
