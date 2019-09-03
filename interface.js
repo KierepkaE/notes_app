@@ -23,12 +23,20 @@ const createListItem = () => {
         let new_note = document.createElement('LI');
         new_note.textContent = trim(note);
         new_note.setAttribute("class", "ListItem");
-        new_note.setAttribute("id", `note${index}`);
+        new_note.setAttribute("id", `${index}`);
+        new_note.setAttribute("onclick", `displayNote(${index})`);
         note_list.appendChild(new_note);
     });
-
 }
 
 const clear_list = () => {
     note_list.innerHTML = '';
+}
+
+const displayNote = (index) => {
+  content = notes[index];
+  paragraph = document.createElement('P');
+  paragraph.innerHTML = content;
+  display.innerHTML = ''
+  display.appendChild(paragraph);
 }
