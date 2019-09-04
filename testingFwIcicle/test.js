@@ -29,7 +29,7 @@ Expect.prototype.not = function(a) {
 };
 
 Expect.prototype.toEqual = function(matcher) {
-  return formatResult(matcher === this.subject);
+  return formatResult(matcher == this.subject);
 };
 
 Expect.prototype.notToEqual = function(matcher) {
