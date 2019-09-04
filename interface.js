@@ -1,5 +1,5 @@
 let notes = [];
-let titles = []
+let titles = [];
 
 const create_button = document.getElementById('add_note_button')
 const note_value = document.getElementById('note_input')
