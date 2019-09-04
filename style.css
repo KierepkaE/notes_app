@@ -1,90 +1,117 @@
-@font-face {
-    font-family: 'Kitty';
-    src: url('JandaHappyDay.ttf') format('truetype');
-}
-
-* {
-    cursor: url(cursor.cur), default;
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    background-image: url('backgroundkitty.jpg');
-    background-size: cover;
-}
-
-h1 {
-    text-align: center;
-}
-
-h1,
-footer,
-button {
-    font-family: 'Kitty';
-}
-
-#note_input {
-    white-space: pre-wrap;
-}
-
-#note_list {
-    list-style: none;
-    width: 15%;
-}
-
-.ListItem:hover {
-    cursor: pointer;
-    background-color: rgb(95, 33, 14);
-    background-size: 50%;
-    color: white;
-}
-
-.ListItem {
-    background-color: rgba(184, 241, 255, 0.527);
-    background-size: 300px 100px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 150px;
-    /* position: fixed; */
-    bottom: 10px;
-    letter-spacing: 1.8px;
-}
-
-textarea {
-    line-height: auto;
-    background: url(kittyBorder.png) center center no-repeat;
-    background-size: 100%;
-    border: none;
-    resize: none;
-    width: 391px;
-    height: 359px;
-    padding-top: 100px;
-}
-
-textarea[placeholder] {
-    padding-left: 100px;
-    padding-top: 100px;
-}
-
-button {
-    color: rgb(255, 232, 158) !important;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: rgb(117, 58, 7);
-    padding: 10px;
-    border-radius: 50px;
-    display: inline-block;
-    border: none;
-    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-    transition: all 0.4s ease 0s;
-    letter-spacing: 1.2px;
-}
-
-button:hover {
-    background: rgb(235, 145, 66);
-}
+                @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+                @font-face {
+                    font-family: 'Kitty';
+                    src: url('JandaHappyDay.ttf') format('truetype');
+                }
+                
+                * {
+                    cursor: url(cursor.cur), default;
+                }
+                
+                html {
+                    height: 100%;
+                }
+                
+                body {
+                    background-image: url('backgroundkitty.jpg');
+                    background-size: cover;
+                    background-color: sandybrown;
+                }
+                
+                h1 {
+                    text-align: center;
+                }
+                
+                h1,
+                footer,
+                button {
+                    font-family: 'Kitty';
+                }
+                
+                #note_input {
+                    white-space: pre-wrap;
+                }
+                
+                #note_list {
+                    list-style: none;
+                    width: 15%;
+                }
+                
+                .list-item:hover,
+                .list-item:focus {
+                    cursor: pointer;
+                    /* background-color: rgb(95, 33, 14); */
+                    background-size: 50%;
+                    color: white;
+                }
+                
+                .list-item {
+                    top: auto;
+                    text-shadow: 0 0 0 transparent;
+                    font-family: 'Indie Flower', cursive;
+                    font-size: 20px;
+                    /* background-color: rgba(184, 241, 255, 0.527); */
+                    background-size: 300px 100px;
+                }
+                
+                footer {
+                    text-align: center;
+                    bottom: 10px;
+                    letter-spacing: 1.8px;
+                }
+                
+                textarea {
+                    margin-top: 80px;
+                    line-height: auto;
+                    background: url(kittyBorder.png) center center no-repeat;
+                    background-size: 100%;
+                    border: none;
+                    resize: none;
+                    width: 391px;
+                    height: 359px;
+                    padding-top: 100px;
+                    font-family: 'Indie Flower', cursive;
+                    font-size: 25px;
+                }
+                
+                textarea[placeholder] {
+                    padding-left: 100px;
+                    padding-top: 100px;
+                }
+                
+                p {
+                    text-align: center;
+                    max-width: 30vw;
+                    font-family: 'Indie Flower', cursive;
+                    background-color: #b2b2b2;
+                    background-color: rgba(0, 3, 0, .3);
+                }
+                
+                button {
+                    color: rgb(255, 232, 158) !important;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    background: rgb(117, 58, 7);
+                    padding: 10px;
+                    border-radius: 50px;
+                    display: inline-block;
+                    border: none;
+                    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+                    transition: all 0.4s ease 0s;
+                    letter-spacing: 1.2px;
+                }
+                
+                button:hover {
+                    background: rgb(235, 145, 66);
+                }
+                
+                input {
+                    position: absolute;
+                    top: 130px;
+                }
+                
+                #display {
+                    position: absolute;
+                    top: 70px;
+                    right: 100px;
+                }
