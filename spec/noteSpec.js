@@ -5,3 +5,8 @@ let note = new Note(title, content);
 
 console.log(expect(note.title).toEqual(title));
 console.log(expect(note.content).toEqual(content));
+console.log(expect(note.trimmedTitle()).toEqual(title));
+
+var title2 = "This a title which has 20 characters";
+note = new Note(title2, content);
+console.log(expect(note.trimmedTitle()).toEqual("This a title which h..."));
