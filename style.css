@@ -115,14 +115,19 @@
                 }
                 
                 input {
+                    border: none;
                     min-width: 200px;
                     min-height: 30px;
                     position: absolute;
+                    border-bottom: 1px solid sandybrown;
+                    box-shadow: 0;
                     top: 130px;
+                    background: transparent;
                 }
                 
                 input:hover {
-                    border: 1px solid sandybrown;
+                    border-bottom: 1px solid sandybrown;
+                    box-shadow: 0;
                     color: sandybrown;
                 }
                 
