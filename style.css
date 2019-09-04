@@ -16,7 +16,13 @@ body {
     background-size: cover;
 }
 
-h1, button{
+h1 {
+    text-align: center;
+}
+
+h1,
+footer,
+button {
     font-family: 'Kitty';
 }
 
@@ -42,8 +48,11 @@ h1, button{
 }
 
 footer {
-    position: fixed;
+    text-align: center;
+    margin-top: 150px;
+    /* position: fixed; */
     bottom: 10px;
+    letter-spacing: 1.8px;
 }
 
 textarea {
@@ -52,7 +61,7 @@ textarea {
     background-size: 100%;
     border: none;
     resize: none;
-    width: 391px; 
+    width: 391px;
     height: 359px;
     padding-top: 100px;
 }
@@ -76,6 +85,6 @@ button {
     letter-spacing: 1.2px;
 }
 
-button:hover{
+button:hover {
     background: rgb(235, 145, 66);
 }
