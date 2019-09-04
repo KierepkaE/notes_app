@@ -1,5 +1,5 @@
 let title = "Note title";
-let content = "Note content, nice content";
+let content = "Note content\nnice content";
 
 let note = new Note(title, content);
 
@@ -14,3 +14,6 @@ console.log(expect(note.trimmedTitle()).toEqual(title));
 var title2 = "This a title which has 20 characters";
 note = new Note(title2, content);
 console.log(expect(note.trimmedTitle()).toEqual("This a title which h..."));
+
+console.log("#readContentLines")
+console.log(expect(note.readContentLines()).toEqual(["Note content", "nice content"]))
