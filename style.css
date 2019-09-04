@@ -58,8 +58,8 @@ textarea {
 }
 
 textarea[placeholder] {
-    padding-left: 5%;
-    padding-top: 5%;
+    padding-left: 100px;
+    padding-top: 100px;
 }
 
 button {
