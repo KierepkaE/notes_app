@@ -22,10 +22,15 @@
                     text-align: center;
                 }
                 
+                h4 {
+                    font-family: 'Indie Flower', cursive;
+                }
+                
                 h1,
                 footer,
                 button {
                     font-family: 'Kitty';
+                    text-transform: uppercase;
                 }
                 
                 #note_input {
@@ -74,6 +79,10 @@
                     font-size: 25px;
                 }
                 
+                textarea:hover {
+                    color: sandybrown;
+                }
+                
                 textarea[placeholder] {
                     padding-left: 100px;
                     padding-top: 100px;
@@ -106,8 +115,19 @@
                 }
                 
                 input {
+                    min-width: 200px;
+                    min-height: 30px;
                     position: absolute;
                     top: 130px;
+                }
+                
+                input:hover {
+                    border: 1px solid sandybrown;
+                    color: sandybrown;
+                }
+                
+                input[placeholder] {
+                    font-family: 'Indie Flower', cursive;
                 }
                 
                 #display {
