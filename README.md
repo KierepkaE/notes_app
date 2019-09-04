@@ -1,5 +1,7 @@
 
-# Notes app user stories
+# Notes app 
+
+### user stories
 
 ![Notes app home page mockup](https://github.com/makersacademy/course/raw/master/further_javascript/images/notes-home-page-mock-up.png)
 ![Notes app note page mockup](https://github.com/makersacademy/course/raw/master/further_javascript/images/notes-note-page-mock-up.png)
