@@ -29,7 +29,7 @@ const createListItem = () => {
     clear_list();
     notes.map((note, index) => {
         let new_note = document.createElement('LI');
-        new_note.textContent = titles[index];
+        new_note.textContent = trim(titles[index]);
         new_note.setAttribute("class", "list-item");
         new_note.setAttribute("id", `${index}`);
         new_note.setAttribute("onclick", `displayNote(${index})`);
