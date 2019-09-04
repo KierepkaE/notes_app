@@ -45,7 +45,6 @@
                 .list-item:hover,
                 .list-item:focus {
                     cursor: pointer;
-                    /* background-color: rgb(95, 33, 14); */
                     background-size: 50%;
                     color: white;
                 }
@@ -55,7 +54,6 @@
                     text-shadow: 0 0 0 transparent;
                     font-family: 'Indie Flower', cursive;
                     font-size: 20px;
-                    /* background-color: rgba(184, 241, 255, 0.527); */
                     background-size: 300px 100px;
                 }
                 
@@ -67,16 +65,16 @@
                 
                 textarea {
                     margin-top: 80px;
-                    line-height: auto;
-                    background: url(kittyBorder.png) center center no-repeat;
-                    background-size: 100%;
-                    border: none;
-                    resize: none;
                     width: 391px;
                     height: 359px;
                     padding-top: 100px;
                     font-family: 'Indie Flower', cursive;
                     font-size: 25px;
+                    line-height: auto;
+                    background: url(kittyBorder.png) center center no-repeat;
+                    background-size: 100%;
+                    border: none;
+                    resize: none;
                 }
                 
                 textarea:hover {
