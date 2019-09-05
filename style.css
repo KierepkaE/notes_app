@@ -323,6 +323,114 @@
                     }
                 }
                 
+                @media (width: 375px) and (height: 812px) {
+                    body {
+                        background-image: url('backgroundkitty.jpg');
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-color: sandybrown;
+                    }
+                    h1 {
+                        text-align: center;
+                        margin: 20px 50px;
+                    }
+                    input {
+                        position: absolute;
+                        top: 280px;
+                        left: 50px;
+                    }
+                    textarea {
+                        position: absolute;
+                        top: 290px;
+                        height: 20vh;
+                        font-size: 12px;
+                        background-size: 100%;
+                    }
+                    button {
+                        position: absolute;
+                        top: 650px;
+                    }
+                    footer {
+                        position: fixed;
+                        width: 100vw;
+                        font-size: 12px;
+                        text-align: center;
+                        bottom: 50px;
+                    }
+                }
+                
+                @media (width: 812px) and (height: 375px) {
+                    body {
+                        background-image: url('backgroundkitty.jpg');
+                        background-size: center;
+                        background-repeat: no-repeat;
+                        background-color: sandybrown;
+                    }
+                    h1 {
+                        text-align: center;
+                        line-height: 200px;
+                        margin: 20px 50px;
+                    }
+                    input {
+                        position: absolute;
+                        top: 60px;
+                        left: 50px;
+                    }
+                    textarea {
+                        position: absolute;
+                        top: 70px;
+                        height: 20vh;
+                        font-size: 12px;
+                        background-size: 100%;
+                    }
+                    button {
+                        position: absolute;
+                        top: 335px;
+                        left: 30px
+                    }
+                    footer {
+                        position: fixed;
+                        width: 100vw;
+                        font-size: 12px;
+                        text-align: center;
+                        bottom: 0;
+                    }
+                }
+                
+                @media (width: 768px) and (height: 1024px) {
+                    body {
+                        background-image: url('backgroundkitty.jpg');
+                        background-size: inherit;
+                        background-repeat: no-repeat;
+                        background-color: sandybrown;
+                    }
+                    h1 {
+                        text-align: center;
+                        margin: 20px 50px;
+                    }
+                    input {
+                        text-align: center;
+                    }
+                    textarea {
+                        position: absolute;
+                        top: 190px;
+                        height: 20vh;
+                        font-size: 12px;
+                        background-size: 100%;
+                    }
+                    button {
+                        position: absolute;
+                        top: 650px;
+                    }
+                    footer {
+                        position: fixed;
+                        width: 100vw;
+                        font-size: 12px;
+                        text-align: center;
+                        bottom: 0;
+                    }
+                }
+                
                 @media(width: 414px) {
                     @media (max-width: 667px) {
                         body {
