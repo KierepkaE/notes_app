@@ -58,6 +58,9 @@
                 }
                 
                 footer {
+                    position: fixed;
+                    bottom: 0;
+                    width: 100vw;
                     text-align: center;
                     bottom: 10px;
                     letter-spacing: 1.8px;
@@ -428,6 +431,131 @@
                         font-size: 12px;
                         text-align: center;
                         bottom: 0;
+                    }
+                }
+                
+                @media (width: 768px) {
+                    @media (height: 1024px) {
+                        body {
+                            font-size: 20px;
+                            text-align: left;
+                            margin-left: 50px;
+                            background-image: url('backgroundkitty.jpg');
+                            background-size: inherit;
+                            background-repeat: no-repeat;
+                            background-color: sandybrown
+                        }
+                        h1 {
+                            text-align: center;
+                            margin: 20px 50px;
+                        }
+                        input {
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                        textarea {
+                            font-size: 20px;
+                            position: absolute;
+                            top: 190px;
+                            height: 20vh;
+                            background-size: 100%;
+                        }
+                        button {
+                            font-size: 20px;
+                            position: absolute;
+                            top: 650px;
+                        }
+                        footer {
+                            position: fixed;
+                            width: 100vw;
+                            font-size: 12px;
+                            text-align: center;
+                            bottom: 0;
+                        }
+                    }
+                }
+                
+                @media(width: 1366px) {
+                    @media (max-width: 1024px) {
+                        body {
+                            background-image: url('backgroundkitty.jpg');
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-color: sandybrown;
+                        }
+                        h1 {
+                            text-align: left;
+                            line-height: 300px;
+                            margin: 20px 50px;
+                        }
+                        input {
+                            position: absolute;
+                            top: 310px;
+                            left: 50px;
+                        }
+                        textarea {
+                            position: absolute;
+                            top: 290px;
+                            height: 20vh;
+                            font-size: 12px;
+                            background-size: 100%;
+                        }
+                        button {
+                            position: absolute;
+                            top: 760px;
+                            margin-bottom: 250px
+                        }
+                        footer {
+                            position: fixed;
+                            width: 100vw;
+                            font-size: 22px;
+                            text-align: center;
+                            bottom: 0px;
+                        }
+                    }
+                }
+                
+                @media (width: 1024px) {
+                    @media (height: 1366px) {
+                        body {
+                            font-size: 20px;
+                            text-align: left;
+                            margin-left: 50px;
+                            background-image: url('backgroundkitty.jpg');
+                            background-size: inherit;
+                            background-repeat: no-repeat;
+                            background-color: sandybrown;
+                        }
+                        h1 {
+                            text-align: center;
+                            margin: 10px 10px;
+                        }
+                        input {
+                            position: absolute;
+                            font-size: 25px;
+                            top: 200px;
+                            text-align: center;
+                        }
+                        textarea {
+                            font-size: 25px;
+                            position: absolute;
+                            top: 360px;
+                            height: 20vh;
+                            background-size: 100%;
+                        }
+                        button {
+                            font-size: 20px;
+                            position: absolute;
+                            top: 850px;
+                        }
+                        footer {
+                            position: fixed;
+                            width: 100vw;
+                            font-size: 22px;
+                            text-align: center;
+                            bottom: 0;
+                            letter-spacing: 2px;
+                        }
                     }
                 }
                 
